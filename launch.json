@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "PixelCommons",
+      "constructorArgs": []
+    }
+  ],
+  "notes": "PixelCommons creates a shared 64x64 canvas with 4,096 white pixels. Anyone can paint with one of 16 colors, subject to a 30-second per-wallet cooldown. Each paint emits Painted; getCanvas returns all pixels in row-major order. The nonpayable constructor takes no arguments and requires no dependencies or initialization calls. There is no owner, admin, fee, pause, or upgrade mechanism, and no token, pool, or deployment funding."
+}
